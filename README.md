@@ -14,6 +14,7 @@ Data Format
 -----------
 
 A single sensor data reading needs to be packaged to a text file with UTF-8 encoding and the following JSON format:
+
 ```json
 {
   "sensors": [
@@ -30,6 +31,7 @@ A single sensor data reading needs to be packaged to a text file with UTF-8 enco
     }
 }
 ```
+
 The JSON file contains an array of sensors. It is ok to have only one sensor. Each sensor will be mapped to one hotspot on top of the video layer.
 
 Each sensor has an id string that needs to be unique. It will not be shown to users. The recommened format is Java package name style:
