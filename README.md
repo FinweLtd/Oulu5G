@@ -1,5 +1,4 @@
 # Oulu5G
-========
 
 Repository for Oulu 5G Demo (360 Live Video Stream with Data Hotspots)
 
@@ -41,12 +40,19 @@ The title string does not need to be unique, but it should be as short as possib
 
 The value string contains the sensor measurement. The maximum is 160 characters, but reading long texts via VR headset isn't very comfortable, so keep it as short as possible.
 
-The timestamp is an optional field where you specify the exact time when the measurement was taken. Use XML time with UTC time zone (notice the Z character in the end of the string).
+The timestamp is an optional field where you specify the exact time when the measurement was taken. Use XML time with UTC time zone (notice the Z character in the end of the string):
+http://books.xmlschemata.org/relaxng/ch19-77049.html
 
 The primary UI resource for the hotspot is its icon image. Provide here a URI to your icon file. Notice that you can change the icon based on sensor reading if you wish, or use a single image all the time. If you decide to use multiple images, please keep it within 1-5 images that we can easily cache on the player device.
 
 The coordinates define the hotspot's location on the spherical 360 image, i.e. the direction of your sensor from the physical location of the camera. These needs to be tuned once the exact location and orientation of the camera is known. They are given in degrees using two values: latitude and longitude.
 
+Hotspot Icon
+------------
+
+The icon image of the hotspot should be clean, distinguishable logo that presents your company / sensor type / data value. We accept only 256x256 pixel 32-bit PNG images with alpha channel (part of the image can be transparent).
+
+Upload the image file(s) on a web server and reference to the image you wish to be used in your sensor's JSON field 'image_uri'. The player will download the image and render it to the direction specified by lat, lon coordinates.
 
 
 
