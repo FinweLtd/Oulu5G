@@ -1,6 +1,6 @@
 # Oulu5G
 
-Repository for Oulu 5G Demo (360 Live Video Stream with Data Hotspots)
+Repository for Oulu 5G Demo (360 Live Video Stream with IoT Data Hotspots)
 
 Abstract
 --------
