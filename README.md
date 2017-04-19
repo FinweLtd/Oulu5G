@@ -54,19 +54,12 @@ The icon image of the hotspot should be clean, distinguishable logo that present
 
 Upload the image file(s) on a web server and reference to the image you wish to be used in your sensor's JSON field 'image_uri'. The player will download the image and render it to the direction specified by lat, lon coordinates.
 
+Example images can be found here:
+TODO
 
+Publishing Sensor Readings
+--------------------------
 
+After reading a new measurement from your sensor, and packaging it to a JSON file, you will need to publish it via HTTP POST to our server. The server runs on Amazon AWS and combines input from all sensors to a single JSON file that will be fetched by the players a few times per second.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+The URL of the backend server will be published soon with instructions for posting your own data.
