@@ -22,7 +22,7 @@ A single sensor data reading needs to be packaged to a text file with UTF-8 enco
       "title": "Office Temp",
       "value": "21.0° C",
       "timestamp": "2017-04-19T10:15:30.123Z",
-      "image_uri": "http://www.finwe.fi/sensor.png",
+      "image_uri": "https://github.com/FinweLtd/Oulu5G/blob/master/temp_20.png",
       "coordinates": {
         "lat": "45.0",
         "lon": "112.0"
@@ -55,7 +55,11 @@ The icon image of the hotspot should be clean, distinguishable logo that present
 Upload the image file(s) on a web server and reference to the image you wish to use in your sensor's JSON field 'image_uri'. The player will download the image and render it to the direction specified by lat, lon coordinates.
 
 Example images can be found here:
-TODO
+https://github.com/FinweLtd/Oulu5G/blob/master/temp_20.png
+https://github.com/FinweLtd/Oulu5G/blob/master/temp_40.png
+https://github.com/FinweLtd/Oulu5G/blob/master/temp_60.png
+https://github.com/FinweLtd/Oulu5G/blob/master/temp_80.png
+https://github.com/FinweLtd/Oulu5G/blob/master/temp_100.png
 
 Publishing Sensor Readings
 --------------------------
