@@ -55,6 +55,7 @@ The icon image of the hotspot should be clean, distinguishable logo that present
 Upload the image file(s) on a web server and reference to the image you wish to use in your sensor's JSON field 'image_uri'. The player will download the image and render it to the direction specified by lat, lon coordinates.
 
 Example images can be found here:
+
 https://github.com/FinweLtd/Oulu5G/blob/master/temp_20.png
 https://github.com/FinweLtd/Oulu5G/blob/master/temp_40.png
 https://github.com/FinweLtd/Oulu5G/blob/master/temp_60.png
